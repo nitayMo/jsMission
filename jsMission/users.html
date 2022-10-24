@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./users.css">
+    <script src="./users.js"></script>
+</head>
+<body>
+   
+    <div id="dror" style="width: 100vw; position: absolute;">
+    <form>
+        <label><input type="radio" name="band" value="age" checked onclick="hideButtons()"><span>age</span></label>
+        <label><input type="radio" name="band" value="name" onclick="hideButtons()"><span>name</span></label>
+        <label><input type="radio" name="band" value="admin" onclick="hideButtons()"><span>admin</span></label>
+        <label><input type="radio" name="band" value="grades" onclick="showButtons()"><span>grades</span></label>
+        <label><input type="radio" name="band" value="address" onclick="hideButtons()"><span>address</span></label>
+    
+    </form>
+</div>
+    <div style="margin-left: 15%;">
+    <label for="fname">value to search:</label>
+  <input type="text" id="value" name="value"><br><br>
+</div>
+<button style="background-color: white; position: absolute;" onclick="searchCards()" id="search"><h2>search</h2></button>
+
+
+<div id="cards" style="margin-top: 20vh; width: 100vw; position: absolute;">
+
+</div>
+<div id="buttons" style="display: none; width: 10%; margin-left: 55vw;">
+    <button class="buttons" style="background-color: white; 
+    position: absolute;
+    width: 8%;
+    height: 7%;
+    text-align: center;
+    margin-top: 15vh;" onclick="searchAll()"><h2>all greades greater than</h2></button>
+    <button style="background-color: white; 
+    position: absolute;
+    width: 8%;
+    height: 7%;
+    text-align: center;
+    margin-top: 25vh;"onclick="searchSome()" class="buttons"><h2>some greades greater than</h2></button>
+    <button style="background-color: white; 
+    position: absolute;
+    width: 8%;
+    height: 7%;
+    text-align: center;
+    margin-top: 35vh;"onclick="searchFuck()" class="buttons"><h2>Array Filter and Manipulation</h2></button>
+</div>
+</body>
+</html>

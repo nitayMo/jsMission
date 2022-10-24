@@ -1,0 +1,49 @@
+.text{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 1%;
+    margin: 1%;
+    background-color: #4CAF50;
+    white-space: pre-line;
+    height: 7vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+  }
+  .exitB{
+    
+    display: none;
+  }
+  .card:hover  .exitB{
+    display: inline-block;
+    width: 2vw;
+    height: 2vh;
+    background-color: red;
+  }
+ 

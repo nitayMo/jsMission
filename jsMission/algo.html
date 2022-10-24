@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./algo.css">
+    <script src="./algo.js"></script>
+</head>
+<body>
+
+        <div id="first">
+            <div class="card">
+                <h2><svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-coffee" href="#icon-coffee" /></svg>Regular</h2>
+                <label class="input">
+                  <input class="input__field" type="text" placeholder=" " id="num" />
+                  <span class="input__label">enter number</span>
+                </label>
+                <div class="button-group">
+                  <button onclick="check()">check</button>
+                  <button type="reset">Reset</button>
+                </div>
+              </div>
+        </div>
+        <div id="second">
+            <div id="first">
+                <div class="card">
+                    <h2><svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-coffee" href="#icon-coffee" /></svg>Regular</h2>
+                    <label class="input">
+                      <input class="input__field" type="text" placeholder=" " id="number" />
+                      <span class="input__label">enter number</span>
+                      <input class="input__field" type="text" placeholder=" " id="str" />
+                      <span class="input__label">enter string</span>
+                    </label>
+                    <div class="button-group">
+                      <button onclick="encrypt()" id="encrypt">Encrypt</button>
+                      <button type="reset" onclick="decrypt()" id="decrypt">Decrypt </button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+</body>
+</html>
